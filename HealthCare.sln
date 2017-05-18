@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{D81AC3DF-74A5-461D-8DFC-B2C820925B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Distributed Services", "2 Distributed Services", "{0432AE2E-4FFD-4DAC-8FF4-512497FE5E75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Application", "3 Application", "{55C441E1-76CE-402F-812D-5D37E59F86BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Domain", "4 Domain", "{5ECDEE08-ECD0-467C-8B08-97E4851C8EF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Infrastructure", "5 Infrastructure", "{3109ED4A-DE13-468B-ADEC-DB03364A1883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 Infrastructure.Data", "5.1 Infrastructure.Data", "{4DEEC9D6-E9F1-4217-BFD6-7DF304EB5B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 Infrastructure.PatientBoundedContext", "5.2 Infrastructure.PatientBoundedContext", "{4DAA42BC-F4F7-48E3-BA55-C463981BA0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.PromptRx.Web.MVC", "HealthCare.PromptRx.Web.MVC\HealthCare.PromptRx.Web.MVC.csproj", "{4769CB0F-3B43-4084-B4CB-0E78BC067571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.PromptRx.Web.Api", "HealthCare.PromptRx.Web.Api\HealthCare.PromptRx.Web.Api.csproj", "{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.Application.Services", "HealthCare.Application.Services\HealthCare.Application.Services.csproj", "{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.PromptRx.Application.Dto", "HealthCare.PromptRx.Application.Dto\HealthCare.PromptRx.Application.Dto.csproj", "{32DF664D-BABD-45A5-997A-00FE85D2866A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.PromptRx.Domain.Core", "HealthCare.PromptRx.Domain.Core\HealthCare.PromptRx.Domain.Core.csproj", "{C091C33D-8933-4838-B337-8830B9B936DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.PatientBoundedContext.Data", "Infrastructure.PatientBoundedContext.Data\Infrastructure.PatientBoundedContext.Data.csproj", "{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCare.PromptRx.Infrastructure.Data", "HealthCare.PromptRx.Infrastructure.Data\HealthCare.PromptRx.Infrastructure.Data.csproj", "{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4769CB0F-3B43-4084-B4CB-0E78BC067571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4769CB0F-3B43-4084-B4CB-0E78BC067571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4769CB0F-3B43-4084-B4CB-0E78BC067571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4769CB0F-3B43-4084-B4CB-0E78BC067571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DF664D-BABD-45A5-997A-00FE85D2866A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DF664D-BABD-45A5-997A-00FE85D2866A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DF664D-BABD-45A5-997A-00FE85D2866A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DF664D-BABD-45A5-997A-00FE85D2866A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C091C33D-8933-4838-B337-8830B9B936DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C091C33D-8933-4838-B337-8830B9B936DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C091C33D-8933-4838-B337-8830B9B936DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C091C33D-8933-4838-B337-8830B9B936DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DEEC9D6-E9F1-4217-BFD6-7DF304EB5B00} = {3109ED4A-DE13-468B-ADEC-DB03364A1883}
+		{4DAA42BC-F4F7-48E3-BA55-C463981BA0A6} = {3109ED4A-DE13-468B-ADEC-DB03364A1883}
+		{4769CB0F-3B43-4084-B4CB-0E78BC067571} = {D81AC3DF-74A5-461D-8DFC-B2C820925B7D}
+		{C3C7BBC5-F1ED-40A3-9552-4B8687EF31E6} = {0432AE2E-4FFD-4DAC-8FF4-512497FE5E75}
+		{B9644F3C-4B2A-48FB-89A9-B5D8B4062BBA} = {55C441E1-76CE-402F-812D-5D37E59F86BC}
+		{32DF664D-BABD-45A5-997A-00FE85D2866A} = {55C441E1-76CE-402F-812D-5D37E59F86BC}
+		{C091C33D-8933-4838-B337-8830B9B936DA} = {5ECDEE08-ECD0-467C-8B08-97E4851C8EF9}
+		{B3BA1DBB-DBF1-49DE-AB99-2E0C09002F05} = {4DAA42BC-F4F7-48E3-BA55-C463981BA0A6}
+		{C9ED447F-3A89-4F8B-A81E-1CC8D66D3DFD} = {4DEEC9D6-E9F1-4217-BFD6-7DF304EB5B00}
+	EndGlobalSection
+EndGlobal
