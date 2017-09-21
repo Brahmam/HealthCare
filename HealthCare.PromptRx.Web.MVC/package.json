@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.41",
-    "@types/node": "6.0.40",
+    "@types/node": "^6.0.78",
     "gulp": "3.9.1",
     "gulp-tsc": "^1.2.5",
     "gulp-typescript": "^3.1.2",

@@ -150,12 +150,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Components\Movies\MovieDetails.html" />
+    <Content Include="app\Components\Movies\MoviesList.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\Baahubali_the_Conclusion.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -191,8 +194,10 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\Components\Shared\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -212,7 +217,14 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\Components\Movies\movie.module.ts" />
+    <TypeScriptCompile Include="app\Components\Movies\MovieDetailComponent.ts" />
+    <TypeScriptCompile Include="app\Components\Movies\MovieList.Component.ts" />
+    <TypeScriptCompile Include="app\Components\Movies\MovieService.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\Models\Movie.ts" />
+    <TypeScriptCompile Include="app\Shared\global.ts" />
+    <TypeScriptCompile Include="polyfills.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -236,7 +248,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>47986</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:47986/</IISUrl>
+          <IISUrl>http://localhost:50001/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

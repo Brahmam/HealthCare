@@ -8,6 +8,7 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
+    "compileOnSave": true,
     "types": []
   },
   "exclude": [
